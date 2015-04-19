@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.recommendations.spbtv.com/v2/recommendations?application=spbtv&limit=300&offset=0&type=channel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 10 Apr 2015 13:36:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"bdb951b2f152a0dd364e01ccfd6a3b24"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f38afd43-c045-47e3-979b-36e228fce1dd
+      X-Runtime:
+      - '0.823331'
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"id":"210","type":"channel","score":304503},{"id":"30","type":"channel","score":241778},{"id":"211","type":"channel","score":217738},{"id":"118","type":"channel","score":188929},{"id":"85","type":"channel","score":180152},{"id":"lifenews","type":"channel","score":100495},{"id":"carousel_ru","type":"channel","score":91304},{"id":"168","type":"channel","score":87565},{"id":"firetv","type":"channel","score":82373},{"id":"52","type":"channel","score":79232},{"id":"184","type":"channel","score":75677},{"id":"235","type":"channel","score":57646},{"id":"110","type":"channel","score":56155},{"id":"31","type":"channel","score":56121},{"id":"football","type":"channel","score":54946},{"id":"214","type":"channel","score":50747},{"id":"fplusk","type":"channel","score":46618},{"id":"103","type":"channel","score":43314},{"id":"225","type":"channel","score":38666},{"id":"music_box","type":"channel","score":35181},{"id":"37","type":"channel","score":34993},{"id":"554","type":"channel","score":32302},{"id":"topsecret","type":"channel","score":30241},{"id":"waves","type":"channel","score":28674},{"id":"172","type":"channel","score":26132},{"id":"197","type":"channel","score":25344},{"id":"12","type":"channel","score":23652},{"id":"643","type":"channel","score":23312},{"id":"sybergametv","type":"channel","score":23253},{"id":"340","type":"channel","score":22710},{"id":"515","type":"channel","score":22170},{"id":"53","type":"channel","score":21859},{"id":"69","type":"channel","score":20748},{"id":"myjoy","type":"channel","score":20481},{"id":"613","type":"channel","score":19940},{"id":"70","type":"channel","score":18091},{"id":"cncworlden","type":"channel","score":17373},{"id":"mir24","type":"channel","score":16102},{"id":"rumusic","type":"channel","score":16036},{"id":"belarustv","type":"channel","score":15250},{"id":"ifametv","type":"channel","score":14061},{"id":"591","type":"channel","score":13132},{"id":"17","type":"channel","score":13000},{"id":"104","type":"channel","score":12607},{"id":"59","type":"channel","score":12561},{"id":"95","type":"channel","score":12340},{"id":"522","type":"channel","score":12326},{"id":"523","type":"channel","score":12211},{"id":"303","type":"channel","score":11980},{"id":"dwarabia","type":"channel","score":11964},{"id":"tv_center","type":"channel","score":11705},{"id":"46","type":"channel","score":11388},{"id":"channel5","type":"channel","score":11281},{"id":"600","type":"channel","score":11217},{"id":"hardlife","type":"channel","score":11189},{"id":"41","type":"channel","score":10624},{"id":"shant","type":"channel","score":10580},{"id":"650","type":"channel","score":9975},{"id":"ifilmar","type":"channel","score":9936},{"id":"hdtravel","type":"channel","score":9862},{"id":"dweurope","type":"channel","score":9667},{"id":"642","type":"channel","score":9633},{"id":"ifilmen","type":"channel","score":9218},{"id":"530","type":"channel","score":8664},{"id":"66","type":"channel","score":8572},{"id":"527","type":"channel","score":8498},{"id":"513","type":"channel","score":8368},{"id":"596","type":"channel","score":8353},{"id":"550","type":"channel","score":8320},{"id":"hdextreme","type":"channel","score":8275},{"id":"170","type":"channel","score":7936},{"id":"81","type":"channel","score":7899},{"id":"dwlatin","type":"channel","score":7890},{"id":"241","type":"channel","score":7788},{"id":"149","type":"channel","score":7548},{"id":"131","type":"channel","score":7530},{"id":"1tv","type":"channel","score":7279},{"id":"64","type":"channel","score":7266},{"id":"teledom","type":"channel","score":7146},{"id":"globelstar","type":"channel","score":6401},{"id":"90","type":"channel","score":6380},{"id":"467","type":"channel","score":6282},{"id":"ifilmfa","type":"channel","score":6264},{"id":"122","type":"channel","score":6232},{"id":"styletv","type":"channel","score":6164},{"id":"fitnesschannel","type":"channel","score":5871},{"id":"626","type":"channel","score":5851},{"id":"kentron","type":"channel","score":5743},{"id":"615","type":"channel","score":5572},{"id":"593","type":"channel","score":4810},{"id":"614","type":"channel","score":4689},{"id":"161","type":"channel","score":4685},{"id":"91","type":"channel","score":4478},{"id":"hispan","type":"channel","score":4418},{"id":"shantartn","type":"channel","score":4212},{"id":"kazakhtv","type":"channel","score":4206},{"id":"519","type":"channel","score":4163},{"id":"597","type":"channel","score":4162},{"id":"598","type":"channel","score":4151},{"id":"592","type":"channel","score":4062},{"id":"61","type":"channel","score":3939},{"id":"108","type":"channel","score":3810},{"id":"536","type":"channel","score":3775},{"id":"180","type":"channel","score":3652},{"id":"181","type":"channel","score":3539},{"id":"wfinter","type":"channel","score":3518},{"id":"tvarm","type":"channel","score":3490},{"id":"otb","type":"channel","score":3383},{"id":"cncworldzh","type":"channel","score":3320},{"id":"65","type":"channel","score":3274},{"id":"520","type":"channel","score":3188},{"id":"63","type":"channel","score":3050},{"id":"572","type":"channel","score":2992},{"id":"79","type":"channel","score":2970},{"id":"62","type":"channel","score":2910},{"id":"33","type":"channel","score":2840},{"id":"education","type":"channel","score":2790},{"id":"83","type":"channel","score":2786},{"id":"514","type":"channel","score":2693},{"id":"174","type":"channel","score":2577},{"id":"97","type":"channel","score":2549},{"id":"lalocale","type":"channel","score":2487},{"id":"521","type":"channel","score":2446},{"id":"194","type":"channel","score":2433},{"id":"nashfootball","type":"channel","score":2385},{"id":"nueva","type":"channel","score":2344},{"id":"35","type":"channel","score":2308},{"id":"164","type":"channel","score":2222},{"id":"hdrelax","type":"channel","score":2151},{"id":"645","type":"channel","score":2127},{"id":"106","type":"channel","score":2062},{"id":"15","type":"channel","score":2044},{"id":"22","type":"channel","score":2029},{"id":"545","type":"channel","score":1991},{"id":"599","type":"channel","score":1852},{"id":"93","type":"channel","score":1808},{"id":"130","type":"channel","score":1795},{"id":"187","type":"channel","score":1774},{"id":"644","type":"channel","score":1720},{"id":"rostovtv","type":"channel","score":1617},{"id":"120","type":"channel","score":1600},{"id":"151","type":"channel","score":1572},{"id":"tvcbh","type":"channel","score":1534},{"id":"76","type":"channel","score":1527},{"id":"25","type":"channel","score":1488},{"id":"609","type":"channel","score":1464},{"id":"99","type":"channel","score":1418},{"id":"bgtv","type":"channel","score":1379},{"id":"tvmosaico","type":"channel","score":1370},{"id":"tieliekafie_f1da2e29-3097-4612-8256-07e27a28eaf1","type":"channel","score":1336},{"id":"133","type":"channel","score":1325},{"id":"44","type":"channel","score":1283},{"id":"gordimy","type":"channel","score":1267},{"id":"135","type":"channel","score":1181},{"id":"28","type":"channel","score":1175},{"id":"40","type":"channel","score":1106},{"id":"583","type":"channel","score":1072},{"id":"56","type":"channel","score":1028},{"id":"121","type":"channel","score":897},{"id":"taivas_tv7","type":"channel","score":750},{"id":"mirbelogorya","type":"channel","score":703},{"id":"646","type":"channel","score":703},{"id":"khl","type":"channel","score":635},{"id":"647","type":"channel","score":596},{"id":"655","type":"channel","score":553},{"id":"penza","type":"channel","score":507},{"id":"150","type":"channel","score":489},{"id":"sport1","type":"channel","score":477},{"id":"656","type":"channel","score":325},{"id":"215","type":"channel","score":320},{"id":"fightclub","type":"channel","score":311},{"id":"32","type":"channel","score":310},{"id":"sport2","type":"channel","score":304},{"id":"167","type":"channel","score":270},{"id":"86","type":"channel","score":256},{"id":"really_scary_tv","type":"channel","score":212},{"id":"129","type":"channel","score":209},{"id":"462","type":"channel","score":192},{"id":"nickelodeon","type":"channel","score":186},{"id":"238","type":"channel","score":178},{"id":"amedia1","type":"channel","score":178},{"id":"518","type":"channel","score":168},{"id":"171","type":"channel","score":163},{"id":"216","type":"channel","score":157},{"id":"249","type":"channel","score":149},{"id":"vtc","type":"channel","score":142},{"id":"239","type":"channel","score":141},{"id":"kino_tv","type":"channel","score":138},{"id":"rus_roman","type":"channel","score":130},{"id":"243","type":"channel","score":119},{"id":"84","type":"channel","score":118},{"id":"rus_best","type":"channel","score":111},{"id":"480","type":"channel","score":103}],"recommendation_id":"by_watchtimes_per_month_3a0f66e9-298c-4e5e-b265-d1f4db86520a","meta":{"status":200,"pagination":{"limit":300,"offset":0,"total_count":193,"count":193}}}'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:36:37 GMT
+recorded_with: VCR 2.9.3
